@@ -1,7 +1,6 @@
 import NP from 'number-precision';
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import '../css/Cart.scss';
-import { useEffect } from 'react';
 function Cart({cartItems, removeProductFromCart}) {
   const calculateSubtotal = () => {
     let subtotal = 0;
